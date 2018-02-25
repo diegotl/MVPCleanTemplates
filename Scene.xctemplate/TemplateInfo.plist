@@ -62,7 +62,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Router</string>
+			<string>___VARIABLE_sceneName:identifier___ViewRouter</string>
 			<key>Description</key>
 			<string>Router name.</string>
 			<key>Identifier</key>
