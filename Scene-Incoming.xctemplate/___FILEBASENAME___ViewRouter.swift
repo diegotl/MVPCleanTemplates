@@ -6,13 +6,9 @@ protocol I___VARIABLE_sceneName:identifier___ViewRouter {
 
 }
 
-class ___VARIABLE_sceneName:identifier___ViewRouter: I___VARIABLE_sceneName:identifier___ViewRouter {
+struct ___VARIABLE_sceneName:identifier___ViewRouter: I___VARIABLE_sceneName:identifier___ViewRouter {
     
-//    private weak var navigationController: UINavigationController?
-//
-//    init(navigationController: UINavigationController?) {
-//        self.navigationController = navigationController
-//    }
+//    private(set) weak var navigationController: UINavigationController?
 //
 //    func navigateTo() {
 //        let view = Storyboard.<#name#>.instantiate(___VARIABLE_sceneName:identifier___ViewController.self)
