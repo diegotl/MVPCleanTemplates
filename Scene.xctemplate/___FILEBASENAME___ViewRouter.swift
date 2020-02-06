@@ -16,13 +16,8 @@ struct ___VARIABLE_sceneName:identifier___ViewRouter: I___VARIABLE_sceneName:ide
 //        navigationController?.pushViewController(view, animated: true)
 //    }
     
-//    private weak var parent: UIViewController?
-//    private weak var container: UIView?
-//
-//    init(parent: UIViewController, container: UIView) {
-//        self.parent = parent
-//        self.container = container
-//    }
+//    private(set) weak var parent: UIViewController?
+//    private(set) weak var container: UIView?
 //
 //    func injectInto() {
 //        let view = Storyboard.<#name#>.instantiate(___VARIABLE_sceneName:identifier___ViewController.self)
