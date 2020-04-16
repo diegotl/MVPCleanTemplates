@@ -2,7 +2,7 @@
 
 import UIKit
 
-class ___VARIABLE_sceneName:identifier___ViewController: UIViewController, I___VARIABLE_sceneName:identifier___View {
+final class ___VARIABLE_sceneName:identifier___ViewController: UIViewController, I___VARIABLE_sceneName:identifier___View {
     
     var configurator: I___VARIABLE_sceneName:identifier___Configurator!
     var presenter: I___VARIABLE_sceneName:identifier___Presenter!

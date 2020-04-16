@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>MyScene</string>
+	<string>Scene</string>
 	<key>Description</key>
 	<string>Generates a ViewController, a Presenter, a Router and a Configurator.</string>
 	<key>Kind</key>
@@ -59,6 +59,38 @@
 			<true/>
 			<key>Type</key>
 			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>referencesUseCaseFactory</string>
+			<key>Required</key>
+			<string>true</string>
+			<key>Name</key>
+			<string>References UseCaseFactory</string>
+			<key>Description</key>
+			<string>Whether this Presenter references UseCaseFactory</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>NotPersisted</key>
+			<string>true</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>referencesRouterFactory</string>
+			<key>Required</key>
+			<string>true</string>
+			<key>Name</key>
+			<string>References RouterFactory</string>
+			<key>Description</key>
+			<string>Whether this Presenter references RouterFactory</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>NotPersisted</key>
+			<string>true</string>
 		</dict>
 		<dict>
 			<key>Default</key>
